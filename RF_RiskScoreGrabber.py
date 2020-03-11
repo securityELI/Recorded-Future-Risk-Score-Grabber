@@ -1,13 +1,6 @@
 import urllib.request
 import json
 
-f = open('very_critical.txt','w')
-f = open('critical.txt','w')
-f = open('high.txt','w')
-f = open('medium.txt','w')
-f = open('low.txt','w')
-f = open('informational.txt','w')
-
 token = '' #INSERT YOUR TOKEN HERE
 CVE_Collection = [line.rstrip('\n') for line in open('cve')]
 length = len(CVE_Collection)
